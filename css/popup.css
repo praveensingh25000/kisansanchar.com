@@ -1,0 +1,15 @@
+.popupwindow{
+	background: url("/images/img01.jpg") repeat-x scroll left top #FFFFFF;
+    color: #666666;
+    font-family: 'Trebuchet MS',"Times New Roman",Times,serif;
+    font-size: 13px;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.popupheader{
+}
+.popupcontainer{
+}
+.popupfooter{
+}

@@ -1,0 +1,344 @@
+.msgdiscriptiontxt{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	padding:10px 0px;
+	font-size:14px;
+	color:#646363;
+}
+.msgdiscriptiontxt a{
+	font-weight:bold;
+	text-decoration:none;
+	color:#3b72d3;
+}
+.msgdiscriptiontxt a:hover{
+	text-decoration:underline;
+}
+.msgdiscriptiontxt .imgdiv{
+	width:90px;
+	height:auto;
+	overflow:hidden;
+	text-align:center;
+	float:left;
+}
+.msgdiscriptiontxt .imgdiv .usimg{
+	width:57px;
+	height:56px;
+	border:1px solid #d6d6d6;
+	padding:4px;
+	margin:auto;
+}
+.bdrimgsearch img{
+	width:39px;
+	height:39px;
+	border:1px solid #d6d6d6;
+	padding:2px;
+	text-align:center;
+	margin:auto;
+}
+
+.msgdiscriptiontxt .imgdiv .usimg img{
+	/*width:57px;
+	height:56px;*/
+}
+.msgdiscriptiontxt .msgmain{
+	width:88%;
+	height:auto;
+	overflow:hidden;
+	float:right;
+}
+.msgdiscriptiontxt h5{
+	font-size:14px;
+	color:#3b72d3;
+}
+.msgdiscriptiontxt .msgmain1{
+	width:100%;
+	position:relative;
+}
+.msgdiscriptiontxt .msgmain1 .msgmain1L{
+	width:75%;
+	float:left;
+}
+.msgdiscriptiontxt .msgmain1 .staricon{
+	width:135px;
+	float:right;
+}
+.msgdiscriptiontxt .msgmain1 .staricon ul li{
+	margin:0px;
+	padding:0px;
+	display:inline;
+}
+.msgdiscriptiontxt .msgmain1 .staricon ul li a{
+	margin:0px 1px;
+	padding:0px;
+	display:block;
+	float:left;
+	width:20px;
+	height:21px;
+}
+.msgdiscriptiontxt .msgmain2{
+	width:100%;
+	position:relative;
+	padding:10px 0px 0px;
+}
+.msgdiscriptiontxt .msgmain2 .msgmain2L{
+        /*width:165px;*/
+	/*width: 215px;*/
+	width: 25%;
+	float:left;
+}
+.msgdiscriptiontxt .msgmain2 .msgmain2L .bdrdivB{
+	width:130px;
+	height:98px;
+	border:1px solid #cccccc;
+	padding:5px;
+	margin-bottom:10px;
+}
+.msgdiscriptiontxt .msgmain2 .msgmain2R{
+	width:75%;
+	float:right;
+}
+.msgdiscriptiontxt .msgmain2 .msgmain2R h4{
+	font-size:16px;
+	color:#3b72d3;
+}
+.msgdiscriptiontxt .msgmain2 .msgmain2L ul li{
+	margin:0px 1px;
+	padding:0px;
+	display:block;
+	float:left;
+	color:#3b72d3;
+}
+.msgdiscriptiontxt .msgmain2 .msgmain2L ul li a{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	font-weight:normal;
+	color:#3b72d3;
+	text-decoration:none;
+}
+.msgdiscriptiontxt .msgmain2 .msgmain2L ul li a:hover{
+	text-decoration:underline;
+}
+
+.photomsgshow{
+	width:100%;
+	height:390px;
+	/*overflow:hidden;*/
+	position:relative;
+	padding-top:20px;
+}
+.photomsgshowL{
+	width:80%;
+	height:auto;
+	overflow:hidden;
+	float:left;
+}
+.photomsgshowR{
+	width:20%;
+	height:auto;
+	overflow:hidden;
+	float:right;
+}
+.msgshowing{
+	width:525px;
+	height:323px;
+	/*border:1px solid #cccccc;*/
+	padding:6px;
+}
+.msgshowing img{
+	border:3px solid #cccccc;
+	
+}
+.photomsgshowL ul{
+	margin:0px;
+	padding:0px;
+	margin-top:10px;
+}
+.photomsgshowL ul li{
+	margin:0px 1px;
+	padding:0px;
+	display:block;
+	float:left;
+	/*color:#3b72d3;*/
+}
+.photomsgshowL ul li a{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	font-weight:normal;
+	/*color:#3b72d3;*/
+	text-decoration:none;
+}
+.photomsgshowL ul li a:hover{
+	text-decoration:underline;
+}
+.photomsgshowR ul{
+	margin:0px;
+	padding:0px;
+}
+.photomsgshowR ul li{
+	margin:3px 0px;
+	padding:5px;
+	display:block;
+	width:128px;
+	height:96px;
+	border:1px solid #ccc;
+}
+
+.msgresultbutton{
+	width:185px;
+	height:30px;
+	position:absolute;
+	right:0px;
+	/*bottom:10px;*/
+	bottom:0;
+	z-index:10;
+	border:1px solid #cccccc;
+}
+.msgresultbutton ul li{
+	margin:0px;
+	padding:0px;
+	display:block;
+	float:left;
+}
+.msgresultbutton ul li.likestus{
+	width:61px;
+	border-right:1px solid #cccccc;
+	height:17px;
+	background:url(../images/likeicon.png) no-repeat 5px center #ddf9e5;
+	color:#318201;
+	font-size:14px;
+	padding:8px 0px 5px 30px;
+	cursor:pointer;
+}
+.msgresultbutton ul li.dislikestus{
+	width:63px;
+	height:17px;
+	background:url(../images/dislikeicon.png) no-repeat 5px center #fce7e8;
+	color:#fa3232;
+	font-size:14px;
+	padding:8px 0px 5px 30px;
+	cursor:pointer;
+}
+.msgresultbutton1{
+	/*width:185px;*/
+	height:30px;
+	/*position:absolute;
+	right:0px;
+	bottom:10px;
+	bottom:0;*/
+	z-index:10;
+	border:1px solid #cccccc;
+}
+.msgresultbutton1 ul li{
+	margin:0px;
+	padding:0px;
+	display:block;
+	float:left;
+}
+.msgresultbutton1 ul li.likestus{
+	width:61px;
+	border-right:1px solid #cccccc;
+	height:17px;
+	background:url(../images/likeicon.png) no-repeat 5px center #ddf9e5;
+	color:#318201;
+	font-size:14px;
+	padding:8px 4px 5px 30px;
+	cursor:pointer;
+}
+.msgresultbutton1 ul li.dislikestus{
+	width:63px;
+	height:17px;
+	background:url(../images/dislikeicon.png) no-repeat 5px center #fce7e8;
+	color:#fa3232;
+	font-size:14px;
+	padding:8px 4px 5px 30px;
+	cursor:pointer;
+}
+
+
+.commentsslide{
+	padding:0px 10px 5px 10px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	margin:20px 0px 0px;
+	height:auto;
+	overflow:hidden;
+	background:#fbfdfe url(../images/commentico.png) no-repeat 10px 5px;
+	cursor:pointer;
+}
+.commentsslide h3{
+	/*color:#3b72d3;*/
+	font-size:14px;
+	font-weight:normal;
+	background:url(../images/slidearw.gif) no-repeat right center;
+	cursor: pointer;
+	padding:12px 0px 12px 40px;
+	border-bottom:1px solid #ffffff;
+
+}
+.commentsslide h3.active{
+	background:url(../images/slidearwUp.png) no-repeat right center;
+}
+.commentsslide .answerslidetext{
+	border-top:1px solid #fff;
+	padding:10px 0px;
+	height:auto;
+	overflow:hidden;
+	width: 100%;
+}
+
+.answerslidetext .imagediv{
+	width:90px;
+	height:auto;
+	overflow:hidden;
+	text-align:center;
+	float:left;
+}
+.answerslidetext .imagediv .bdrimg{
+	width:57px;
+	height:56px;
+	border:1px solid #d6d6d6;
+	padding:4px;
+	margin:auto;
+}
+.answerslidetext .imagediv .bdrimg img{
+	/*width:57px;
+	height:56px;*/
+}
+.answerslidetext .msgmain{
+	width:85%;
+	height:auto;
+	overflow:hidden;
+	float:right;
+}
+.answerslidetext .msgmain .msgdisplay{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	position:relative;
+}
+.answerslidetext .msgmain .msgdisplay h5{
+	margin:0px;
+	padding:0px;
+	color:#3b72d3;
+	font-weight:bold;
+	font-size:14px;
+}
+.answerslidetext .msgmain .msgdisplay ul li{
+	margin:0px 1px;
+	padding:0px;
+	display:block;
+	float:left;
+	color:#3b72d3;
+	font-size:12px;
+}
+.answerslidetext .msgmain .msgdisplay ul li a{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	font-weight:normal;
+	color:#3b72d3;
+	text-decoration:none;
+}

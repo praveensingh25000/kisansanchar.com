@@ -1,0 +1,49 @@
+form label.error {
+    background-color: #F2DEDE;
+    border: 1px solid #EAC2C2;
+    border-radius: 5px;
+    color: #B94A48;
+    display: block;
+    font-size: 11px;
+    left: 0;
+    margin:0;
+    padding: 3px 10px;
+    position: relative;
+    top: 0;
+    width: auto;
+	text-shadow: 0 0;
+	text-align: left;
+	font-weight:bold;
+}
+form input.error, form select.error {
+    background: none repeat scroll 0 0 #B94A48 !important;
+    border-color: #A13B3B !important;
+    color: #F2DEDE !important;
+}
+form input.error:focus {
+    border: 1px solid #F2DEDE !important;
+    box-shadow: 0 0 10px #FF7575 !important;
+    outline: 5px auto #FF7575 !important;
+}
+form select.error:focus {
+    border: 1px solid #F2DEDE !important;
+    outline: 5px auto #FF7575 !important;
+}
+form span.error{   margin-left: 10px;
+    position: absolute;
+    width: 225px;
+}
+
+form label.error{   margin-left: 10px;
+    position: absolute;
+}
+#agree {  float: right; width: 17px !important;}
+.cvv span em.error{width: 203px !important;z-index:9999;}
+.card_number{ width:132px !important;}
+.expire_date{ width:74px !important;}
+.cvv_code{ width:74px !important;}
+
+form span.error {
+	position: absolute;
+	width: 225px;
+}
